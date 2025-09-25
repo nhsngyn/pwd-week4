@@ -2,7 +2,7 @@
 const createApp = require('./src/app');
 
 const PORT = process.env.PORT || 3000;
-const app = createApp();
+const app = express();
 
 if (require.main === module) {
   app.listen(PORT, () => {
