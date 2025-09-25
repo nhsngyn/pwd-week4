@@ -1,5 +1,5 @@
 // tests/restaurants.service.test.js
-const restaurantService = require('../src/services/restaurants.service');
+const restaurantService = require('../src/services/restaurants.service.js');
 
 describe('RestaurantService', () => {
   afterEach(() => {
