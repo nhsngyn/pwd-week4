@@ -1,5 +1,5 @@
 // server.js
-const createApp = require('./src/app');
+const createApp = require('./src/app.js');
 const express = require('express');
 
 const PORT = process.env.PORT || 3000;
